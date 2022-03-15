@@ -1,0 +1,36 @@
+body{
+
+}
+header{
+    text-align: center;
+    font-size: 40px;
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    text-align: center;
+	background: #CCCCCC;
+	padding: 30px;
+}
+.titulo_secao{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+em b{
+    color: red;
+}
+
+.lista{
+    display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+    font-style: italic;
+}
+#beneficios{
+    width: 50%;
+
+}
