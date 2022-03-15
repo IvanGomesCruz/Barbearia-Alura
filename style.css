@@ -19,7 +19,7 @@ nav li{
     margin:  0 0 0 15px;
 }
 nav a{
-    text-transform: uppercase;
+    text-transform: upperase;
     color: black;
     font-weight: bold;
     font-size: 22px;
@@ -31,30 +31,56 @@ nav a:hover{
 }
 #banner{
     width: 100%;
+
+}
+p{
+    line-height: 1.8;
 }
 .principal{
     text-align: center;
 	background: #CCCCCC;
-	padding: 30px;
+    padding-bottom: 30px;
+}
+.conteudo{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 .titulo_secao{
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
+    padding:  30px
 
 }
 
 em b{
+    font-weight: bold;
     color: red;
 }
 
 .lista{
+    position:relative;
+    
     display: inline-block;
 	vertical-align: top;
 	width: 20%;
+    margin-top: 10%;
 	margin-right: 15%;
+    margin-left: 15%;
     font-style: italic;
+    
 }
 #beneficios{
-    width: 50%;
-
+    width: 40%;
+}
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
