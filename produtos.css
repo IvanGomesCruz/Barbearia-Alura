@@ -24,15 +24,16 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;   
-
-
 }
-main{
-    margin-top: 50px;
+nav a:hover{
+    text-decoration: underline;
+    color: blue; 
 }
+
 .produtos{
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 .produtos li {
     display: inline-block;
@@ -45,14 +46,35 @@ main{
     border: 2px solid #000000;
     border-radius: 10px;
 }
+.produtos li:hover{
+    border-color: blue;
+}
+.produtos li:active{
+    border-color: green;
+}
 
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
 }
-
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produto-descricao {
+	font-size: 18px;
+}
 .produto-preco{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
