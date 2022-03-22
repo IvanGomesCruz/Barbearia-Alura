@@ -29,52 +29,6 @@ nav a:hover{
     text-decoration: underline;
     color: blue; 
 }
-
-#banner{
-    width: 100%;
-
-}
-p{
-    line-height: 1.8;
-}
-.principal{
-    text-align: center;
-	background: #CCCCCC;
-    padding-bottom: 30px;
-}
-.conteudo{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-.titulo_secao{
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    padding:  30px
-
-}
-
-em b{
-    font-weight: bold;
-    color: red;
-}
-
-.lista{
-    position:relative;
-    
-    display: inline-block;
-	vertical-align: top;
-	width: 20%;
-    margin-top: 10%;
-	margin-right: 15%;
-    margin-left: 15%;
-    font-style: italic;
-    
-}
-#beneficios{
-    width: 40%;
-}
 footer{
     background: url("bg.jpg");
     text-align: center;
@@ -84,4 +38,120 @@ footer{
     color: white;
     font-size: 13px;
     margin-top: 20px;
+}
+main{
+    width: 940px;
+    margin: 40px auto;
+}
+/* CSS pagina de Contato*/
+form{
+    margin: 40px 0;
+}
+label,form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.horario legend{
+    display: inline;
+}
+.horario select{
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    background-color: orange;
+    padding: 15px;
+    width: 40%;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: orangered;
+    transform: scale(1.2);
+}
+table{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+thead{
+    background-color: darkgrey;
+    font-weight: bold;
+    color: white;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+/*CSS página de produtos*/
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: blue;
+}
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produto-descricao {
+	font-size: 18px;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/*CSS pagina Home*/
+.banner{
+    width: 100%;
+}
+.titulo-centralizado{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.utensilios{
+    float: left;
+    width: 120px;
+}
+.principal p{
+    margin: 0 0 1em;
 }
