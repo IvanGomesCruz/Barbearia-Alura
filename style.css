@@ -193,7 +193,7 @@ th,td{
     color:#FEFEFE;
 }
 .diferenciais .conteudo:not(.video){
-    height: 330px;
+    height: 300px;
     margin-bottom: 3em;
 }
 .espaco-listabeneficios{
@@ -204,7 +204,7 @@ th,td{
 }
 .lista-beneficios{
     width: 60%;
-    margin: calc((330px - 144px)/2) auto;
+    margin: calc((300px - 144px)/2) auto;
     
 }
 .itens{
@@ -219,11 +219,14 @@ th,td{
 .espaco-imgbeneficios{
     width: 50%;
     display: inline-block;
+    margin: 0 auto;
 
 }
 .imagem-beneficios{
-    width: 100%;
-    padding: calc((330px - 300px)/2) 0;
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px black;
 }
 
 .video{
