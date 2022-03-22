@@ -4,7 +4,7 @@ header {
 
 }
 .logo-alura{
-    width:10%;
+    width:20%;
 
 }
 .caixa {
@@ -15,7 +15,7 @@ header {
 }
 nav{
     position: absolute;
-    top: 60px;
+    top: 120px;
     right: 0;
 }
 nav li{
@@ -69,7 +69,9 @@ label,form legend{
     display: inline;
     margin-bottom: 10px;
 }
-
+.mensagem{
+    width: 80%;
+}
 .enviar{
     background-color: orange;
     padding: 15px;
