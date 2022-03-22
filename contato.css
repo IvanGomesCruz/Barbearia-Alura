@@ -15,7 +15,7 @@ nav{
     right: 0;
 }
 nav li{
-    display: inline;
+    display: inline-block;
     margin:  0 0 0 15px;
 }
 nav a{
@@ -32,25 +32,61 @@ nav a:hover{
 
 main{
     width: 940px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 form{
     margin: 40px 0;
 }
-label{
+label,form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
-input{
+.input-padrao{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
 }
+.horario legend{
+    display: inline;
+}
+.horario select{
+    display: inline;
+    margin-bottom: 10px;
+}
 
+.enviar{
+    background-color: orange;
+    padding: 15px;
+    width: 40%;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: orangered;
+    transform: scale(1.2);
+}
+table{
 
+    margin-left: auto;
+    margin-right: auto;
+}
+thead{
+    background-color: darkgrey;
+    font-weight: bold;
+    color: white;
+}
 
+th,td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
 footer{
     background: url("bg.jpg");
     text-align: center;
