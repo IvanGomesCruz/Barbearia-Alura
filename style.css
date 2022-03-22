@@ -1,6 +1,10 @@
 header {
     background-color: #BBBBBB;
-    padding: 20px 0;
+    padding: 10px 0;
+
+}
+.logo-alura{
+    width:10%;
 
 }
 .caixa {
@@ -11,7 +15,7 @@ header {
 }
 nav{
     position: absolute;
-    top: 110px;
+    top: 60px;
     right: 0;
 }
 nav li{
@@ -45,7 +49,7 @@ body{
 
 /* CSS pagina de Contato*/
 form{
-    margin: 40px 0;
+    margin-bottom: 40px;
 }
 label,form legend{
     display: block;
@@ -84,7 +88,6 @@ label,form legend{
 }
 table{
     margin: 0 auto 3em auto;
-
 }
 thead{
     background-color: darkgrey;
@@ -141,12 +144,16 @@ th,td{
 
 .banner{
     width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 -50px;
 }
 .conteudo{
     width: 940px;
     margin: 0 auto;
     padding: 3em 0 0 0 ;
 }
+
 .titulo-centralizado{
     text-align: center;
     font-size: 2em;
@@ -156,13 +163,16 @@ th,td{
 .titulo-centralizado:first-letter{
     font-weight: bold;
 }
+.principal{
+    background-color: #FEFEFE;
+}
 .utensilios{
     float: left;
     width: 120px;
-    margin: 0 20px;
+    margin: 5px 20px;
 }
 .principal p{
-    margin: 0 0 1em;
+    margin: 0 0 0.7em;
 }
 .principal strong{
     font-weight: bold;
@@ -171,7 +181,7 @@ th,td{
     font-style: italic;
 }
 .nosso-estabelecimento{
-    background:  linear-gradient(#FEFEFE, #202020 70%);
+    background:  linear-gradient(#FEFEFE, #202020 90%);
 }
 .nosso-estabelecimento p{
     margin: 0 0 2em;
