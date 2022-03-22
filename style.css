@@ -192,10 +192,20 @@ th,td{
     background-color: #202020;
     color:#FEFEFE;
 }
-.lista-beneficios{
-    width: 40%;
+.diferenciais .conteudo:not(.video){
+    height: 330px;
+    margin-bottom: 3em;
+}
+.espaco-listabeneficios{
+    width:50%;
     display: inline-block;
     vertical-align: top;
+   
+}
+.lista-beneficios{
+    width: 60%;
+    margin: calc((330px - 144px)/2) auto;
+    
 }
 .itens{
     line-height: 1.5;
@@ -204,14 +214,20 @@ th,td{
     font-weight: bold;
 }
 .itens:before{
-    content: "★";
+    content: "★ ";
+}
+.espaco-imgbeneficios{
+    width: 50%;
+    display: inline-block;
+
 }
 .imagem-beneficios{
-    width: 40%;
+    width: 100%;
+    padding: calc((330px - 300px)/2) 0;
 }
 
 .video{
     width: 560px;
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 5em 0;
 }
