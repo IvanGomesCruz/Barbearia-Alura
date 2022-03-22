@@ -37,19 +37,41 @@ main{
 form{
     margin: 40px 0;
 }
-label{
+label,form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
-input{
+.input-padrao{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
 }
+.horario legend{
+    display: inline;
+}
+.horario select{
+    display: inline;
+    margin-bottom: 10px;
+}
 
-
+.enviar{
+    background-color: orange;
+    padding: 15px;
+    width: 40%;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: orangered;
+    transform: scale(1.2);
+}
 
 footer{
     background: url("bg.jpg");
