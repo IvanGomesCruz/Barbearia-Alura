@@ -15,7 +15,7 @@ nav{
     right: 0;
 }
 nav li{
-    display: inline;
+    display: inline-block;
     margin:  0 0 0 15px;
 }
 nav a{
@@ -32,7 +32,7 @@ nav a:hover{
 
 main{
     width: 940px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 form{
     margin: 40px 0;
@@ -72,7 +72,21 @@ label,form legend{
     background-color: orangered;
     transform: scale(1.2);
 }
+table{
 
+    margin-left: auto;
+    margin-right: auto;
+}
+thead{
+    background-color: darkgrey;
+    font-weight: bold;
+    color: white;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
 footer{
     background: url("bg.jpg");
     text-align: center;
