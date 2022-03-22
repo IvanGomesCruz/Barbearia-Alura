@@ -159,9 +159,10 @@ th,td{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+.titulo-centralizado:first-letter{
     font-weight: bold;
 }
-
 .principal{
     background-color: #FEFEFE;
 }
@@ -232,4 +233,66 @@ th,td{
     width: 560px;
     margin: 0 auto;
     padding: 5em 0;
+}
+@media screen and (max-width:950px) {
+    .caixa, .principal,.conteudo,.video,.mapa{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    .banner{
+        object-position: 0 0;
+    }
+    .logo-alura{
+        width: auto;
+        height: 10%
+    }
+    nav{
+        position: static;
+        text-align: center;
+    }
+    .conteudo{
+        margin: 0 2em;
+    }
+    .espaco-imgbeneficios,.espaco-listabeneficios{
+        width: 100%;   
+    }
+    .diferenciais .conteudo:not(.video){
+        height: auto;
+        margin-bottom: 3em;
+    }
+    .espaco-imgbeneficios{
+        text-align: center;
+    }
+    .imagem-beneficios{
+        height: auto;
+    }
+    
+    .lista-beneficios{
+        margin: 2em auto;
+        width: 40%;
+    }
+    .conteudo{
+        padding: 20px 0 0 0;        
+    }
+    .produtos{
+        width: auto;
+        text-align: center;
+    }
+    .produtos li{
+        width: 60%;
+        display: inline-block;
+        padding: 20px 30px;
+        margin: 0 1em 2em 1em;
+    }
+    .imgproduto{
+        width: 100%;
+    }
+    .input-padrao{
+        width: 80%;
+    }
+    .mensagem{
+        width: 80%;
+    }
 }
