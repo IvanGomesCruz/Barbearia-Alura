@@ -159,10 +159,9 @@ th,td{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-}
-.titulo-centralizado:first-letter{
     font-weight: bold;
 }
+
 .principal{
     background-color: #FEFEFE;
 }
